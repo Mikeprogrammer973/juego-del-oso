@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+/* General */
+*{
+  box-sizing: border-box;
+}
+.badge{
+  box-sizing: content-box;
+  border-radius: 50%;
+  padding: 1vw;
+  background-color: lightgray;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.bdg-m {
+  width:6vh; 
+  height:6vh;
+  font-size: 3vh;
+}
+.bdg-light{
+  background-color: white;
+  color:darkgray;
+}
+.bdg-dark{
+  background-color: black;
+  color:whitesmoke;
+}
+/* main */
+main{
+  background-color: whitesmoke;
+  padding: 2vh;
+}
+/* z-game */
+#z-game{
+  border:1px solid teal;
+  width: 50vh;
+  margin:10vh auto;
+  padding:5vh;
+  display:flex;
+  flex-wrap: wrap;
+}
+.z-g-square{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:6.5vh;
+  height:6.5vh;
+  border:1px solid black;
+  margin:0px;
+}
+/* p-control */
+#p-control{
+  display: flex;
+  width:100%;
+  border:1px solid black;
+  align-items: center;
+  justify-content: left;
+}
+#p-control > *{
+  width: 50%;
+}
+#c-score > *,#c-btn-i-m > *{
+  margin: 10px;
+}
